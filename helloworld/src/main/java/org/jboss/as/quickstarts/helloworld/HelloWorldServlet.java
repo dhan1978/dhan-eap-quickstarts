@@ -48,7 +48,7 @@ public class HelloWorldServlet extends HttpServlet {
         PrintWriter writer = resp.getWriter();
         writer.println(PAGE_HEADER);
         writer.println("<h1>Hello World! how r alok</h1>");
-        writer.println("<a href="welcome.html"><button>Click Me!</button></a>");
+        writer.println("<a href='welcome.html'><button>Click Me!</button></a>");
         writer.println(PAGE_FOOTER);
         writer.close();
     }
